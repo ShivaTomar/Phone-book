@@ -16,7 +16,7 @@ Capabilities includes:
     - A warning pop menu appears on the screen to confirm delete.
     - Deletes the contact when confirm & Shows a success sweatAlert on the right conrner.
   - When clicking on delete all contact Button:
-    - A input warning pop menu appears which asks user to ##### Enter DELETE to proceed # in the field.
+    - A input warning pop menu appears which asks user to Enter DELETE to proceed in the field.
     - Deletes All the contact when enter correctly & Shows a success sweatAlert on the right conrner.
 
 # MANUAL INSTALLATION
