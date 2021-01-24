@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #22252a;
+}
+
+section {
+  padding: 0.1rem;
+  min-height: 100vh;
+  position: relative;
+}
+
+a {
+  color: #8a8d93;
+  text-decoration: none;
+}
+
+
+/*--Utilities--*/
+.margin-bottom-sm {
+  margin-bottom: 30px !important;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.container-fluid {
+  position: relative;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.block {
+  padding: 20px;
+  background: #2d3035;
+  color: #8a8d93;
+  margin-bottom: 30px;
+}
+
+#nav-bar{
+  overflow: auto;
+  padding: 22px 0px;
+  background-color: #2d3035;
+  border-bottom: 1px solid #34373d;
+}
+ 
+#nav-bar .container-fluid .text-primary{
+  float: left;
+  font-size: 20px;
+  margin-right: 20px;
+  letter-spacing: 0.1em;
+  padding-top: 3px;
+}
+
+#nav-bar .container-fluid span{ color: #429244; }
+
+.container-fluid .logout-btn{
+  float: right;
+  padding: 2px;
+  padding-top: 5px;
+}
+
+input {
+  height: calc(2.4rem + 2px);
+  border: 1px solid #444951;
+  background: transparent;
+  border-radius: 0;
+  color: #979a9f;
+  padding: 0.45rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.T-title {
+  margin-bottom: 20px;
+}
+
+.T-title strong {
+  font-size: 1.25rem;
+  color: #a5a7ab;
+}
+
+.dataTables_length label select, .dataTables_filter input{
+  height: calc(2.4rem + 2px);
+  border: 1px solid #444951;
+  background: transparent;
+  border-radius: 0;
+  color: #979a9f;
+  padding: 0.45rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.dataTables_filter input{
+  margin-left: 0.5em;
+  height: 38px;
+}
+
+/*---TableBody---*/
+table.dataTable thead th, table.dataTable thead td {
+  padding: 10px 18px;
+  border-bottom: 1px solid #111;
+  background-repeat: no-repeat;
+  background-position: center right;
+  text-align: start;
+  border-top: none;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  background-color: #2d3035;
+  border-top: 1px solid #343a40;
+  border-spacing: 0;
+}
+
+.dataTables_wrapper .dataTables_length {
+  color: #979a9f;
+}
+
+#tableHeader{ border-bottom: 1px solid #111; }
+.dataTable-footer{ border-top: 1px solid #111; }
+table.dataTable tbody tr { background: transparent; }
+table.dataTable tbody th, table.dataTable tbody td { padding: 8px 10px; }
+
+.dataTables_info{ padding-top: 12px; }
+
+.previous-btn:hover, .next-btn:hover{ background-color: #6A6C70; }
+.previous-btn:hover a, .next-btn:hover a{ color: #FFFFFF !important; }
+
+.previous-btn, .next-btn{
+  cursor: default;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  margin-left: 2px;
+  background: transparent;
+  box-shadow: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pageNavigation{ margin-top: 4px; }
+.sorting_disabled{ 
+  background-image: none !important;
+  cursor: default !important;
+ }
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.rotate{  transform: rotate(180deg); }
+
+.shortcut:hover{
+  transition: all 0.3s ease;
+  color: #367c38;
+}
+
+#shc-delete-contacts:hover{ color: whitesmoke; }
+
+.brand i {
+  color: #429244;
+  font-size: larger;
+}
+
+.shortcut-bar {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.shortcut {
+  font-size: 1rem;
+  padding: 10px;
+  background: #2d3035;
+  color: #8a8d93;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  background: maroon;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.form-control {
+  border: 1px solid #444951;
+  padding: 7.2px 12px;
+  background: transparent;
+  height: calc(2.4rem + 2px);
+  width: 100%;
+  border-radius: 0;
+  color: #979a9f;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group.row {
+  margin-bottom: 16px;
+}
+
+.col-3 {
+  position: relative;
+  width: 33.333%;
+}
+
+.form-group label {
+  font-size: 14.4px;
+  margin: 0 0 10px;
+}
+
+.col-md-9 {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn{
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px double transparent;
+  cursor: pointer;
+}
+
+.btn-primary, .btn-secondary{
+  background-color: #429244;
+  color: whitesmoke !important;
+  outline: none;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 4px;
+  padding: 9px 12px !important;
+}
+
+.input-group-prepend{
+  background-color: #363A40;
+  width: 45px;
+  height: 40px;
+  border: 1px solid #444951;
+  border-right: none;
+  text-align: center;
+  padding: 6px;
+}
+
+.input-group-append{
+  border: 1px solid #444951;
+  border-left: none;
+  width: 48px;
+}
+
+.edit-button, .update-button {
+  color: #429244;
+}
+
+.cancel-button, .delete-button {
+  color: rgb(221, 51, 51);
+}
+
+input:focus {
+  border-color: #429244;
+}
+
+.text-y {
+  color: #429244;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button, .ellipsis {
+  color: whitesmoke !important;
+}
+
+.mt-mr-auto {
+  margin-top: 28px;
+  margin-left: 50px !important;
+}
+
+#Email-block {
+    flex: 0.500;
+}
+
+#Phone-block {
+  flex: 0.400;
+}
+
+#Name-block {
+  flex: 0.300;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #2d3035 inset !important;
+  -webkit-text-fill-color: #979a9f;
+   transition: background-color 5000s ease-in-out 0s;
+}
+
+.shortcut-btn {
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.text-right {
+  text-align: right;
+}

@@ -1,0 +1,104 @@
+<div id="contact-details">
+  <div class="block" style="padding: 20px; overflow: auto;">
+
+    <div class="T-title row justify-content-between" style="margin-bottom: 25px;">
+      <div>
+        <strong>Contacts</strong>
+        <sub><small>({{Count}})</small></sub>
+      </div>
+      <div class="chevron"><i class="fas fa-lg fa-chevron-up btn btn-block-minimize" id="chevron-contact-details"></i></div>
+    </div>
+
+    <div class="tab-content block-body collapsable" id="myTabContent">
+      <table id="dtBasicExample" class="table dataTable table-striped table-bordered table-sm" cellspacing="0"
+        width="100%">
+        <thead>
+          <tr>
+            <th class="th-sm">Name</th>
+            <th class="th-sm">Phone Number</th>
+            <th class="th-sm">Email</th>
+            <th class="th-sm">Date</th>
+            <th class="th-sm sorting_disabled"></th>
+            <th class="th-sm d-none"></th>
+            <th class="th-sm d-none"></th>
+            <th class="th-sm d-none"></th>
+            <th class="th-sm d-none"></th>
+            <th class="th-sm d-none sorting_disabled"></th>
+          </tr>
+        </thead>
+        <tbody id="tableData">
+
+          {{#each Contacts}}
+
+          <tr>
+            <td class="details"><span class="name"> {{Name}}</span></td>
+            <td class="details"><span class="contactNumber">{{Phone_Number}}</span></td>
+            <td class="details"><span class="email"> {{Email}}</span></td>
+            <td class="details"><small>{{Created.date}}<br>{{Created.time}}</small></td>
+            <td class="btnContainer details" style="vertical-align: middle;">
+              <div class="text-right">
+                <span class="edit-button btn"><i class="fas fa-lg fa-edit"></i></span>
+                <span class="delete-button btn" data-delete="{{_id}}"><i class="fas fa-lg fa-trash-alt"></i></span>
+              </div>
+            </td>
+
+            <form action="/PhoneBook/EditContact" method="POST" id="{{_id}}" class="form-edit-contact">
+
+              <input id="c-{{_id}}" name="contactId" type="hidden" value="{{_id}}">
+
+              <td class="edit edit-Name d-none">
+                <div class="form-group" id="Name-block">
+                  <label class="Name-label control-label-sm" for="Name">Name</label>
+                  <div class="col-md-9">
+                    <input type="text" class="form-control input-name" name="Name" required value="{{Name}}">
+                  </div>
+                </div>
+              </td>
+
+              <td class="edit edit-type d-none">
+                <div class="form-group" id="Phone-block">
+                  <label class="Phone-label control-label-sm" for="PhoneNumber">Phone Number</label>
+                  <div class="col-md-9">
+                    <input type="number" class="form-control input-phone" name="Phone_Number" value="{{Phone_Number}}">
+                  </div>
+                </div>
+              </td>
+
+              <td class="edit d-none">
+                <div class="form-group" id="Edit-block d-none">
+                  <label class="Email-label control-label-sm" for="Email">Email</label>
+                  <div class="col-md-9">
+                    <input type="text" class="form-control input-email" name="Email" value="{{Email}}">
+                  </div>
+                </div>
+              </td>
+
+              <td class="edit d-none"><small>{{Created.date}}<br>{{Created.time}}</small></td>
+
+              <td class="btnContainer edit d-none" style="vertical-align: middle;">
+                <div class="text-right" id="{{_id}}">
+                  <span class="cancel-button btn"><i class="fas fa-lg fa-times"></i></span>
+                  <button type="submit" class="update-button btn" style="background: transparent; outline: none"><i class="fas fa-lg fa-check"></i></button>
+                </div>
+              </td>
+            </form>
+          </tr>
+
+          {{/each}}
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!--Scripts Plugins-->
+<script type="text/javascript" src="/../script/jquery.min.js"></script>
+<script type="text/javascript" src="/../script/popper.min.js"></script>
+<script type="text/javascript" src="/../script/datatables.min.js"></script>
+
+<script>
+  var tables = $('.table').DataTable({
+    "order": [3, 'desc']
+  });
+</script>
