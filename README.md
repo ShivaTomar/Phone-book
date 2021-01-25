@@ -1,12 +1,14 @@
 # PhoneBook Service App
 
  ### Main Page of the App #
+ 
+ ![Alt text] (Images/Main.png)
 
 
 # Application Features.
 Capabilities includes:
   <br><br>
-  ### Button Clicks #
+  #### Button Clicks #
   - When clicking on Add Button:
     - Adds a contact to the PhoneBook.
   - When clicking on Edit Button:
