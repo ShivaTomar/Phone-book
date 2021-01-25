@@ -40,7 +40,7 @@ exports.DeleteContact = async (req, res) => {
     res.status(200).send(result);
 
   } catch (error) {
-    res.status(400).send({ success: true });
+    res.status(400).send({ success: false });
   }
 }
 
