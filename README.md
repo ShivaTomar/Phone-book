@@ -22,20 +22,20 @@ Capabilities includes:
    
 
 # Screenshots
-### Add Contact #
+## Add Contact #
 ![Alt text](Images/AddContact.png)
 
-### Edit Contact #
+## Edit Contact #
 ![Alt text](Images/Edit1.png)
 
 ![Alt text](Images/Edit2.png)
 
-### Delete Contact #
+## Delete Contact #
 ![Alt text](Images/Delete1.png)
 
 ![Alt text](Images/Delete2.png)
 
-### Delete All Contact #
+## Delete All Contact #
 ![Alt text](Images/DeleteAll1.png)
 
 ![Alt text](Images/DeleteAll2.png)
