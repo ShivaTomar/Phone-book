@@ -1,6 +1,7 @@
 # PhoneBook Service App
 
-![Alt text] (Images/Main.png)
+![Alt text](Images/Main.png)
+
 
 # Application Features.
 Capabilities includes:
