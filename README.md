@@ -40,7 +40,7 @@ Capabilities includes:
 
 ![Alt text](Images/DeleteAll2.png)
 
-![Alt text](Images/DeleteAll3.png)
+![Alt text](Images/DeleteeAll3.png)
 
 
 # MANUAL INSTALLATION
