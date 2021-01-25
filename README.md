@@ -1,7 +1,7 @@
 # PhoneBook Service App
 
+### Main Page #
 ![Alt text](Images/Main.png)
-
 
 # Application Features.
 Capabilities includes:
@@ -19,6 +19,12 @@ Capabilities includes:
   - When clicking on delete all contact Button:
     - A input warning pop menu appears which asks user to Enter DELETE to proceed in the field.
     - Deletes All the contact when enter correctly & Shows a success sweatAlert on the right conrner.
+   
+
+#Screenshots
+### Add contact #
+![Alt text](Images/AddContact.png)
+
 
 # MANUAL INSTALLATION
 
