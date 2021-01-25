@@ -1,7 +1,6 @@
 # PhoneBook Service App
 
  ### Main Page of the App #
-![Alt text](Screenshots/Main.png)
 
 
 # Application Features.
