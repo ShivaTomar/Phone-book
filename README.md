@@ -1,6 +1,6 @@
 # PhoneBook Service App
 
-### Main Page #
+### Welcome to PhoneBook Services #
 ![Alt text](Images/Main.png)
 
 # Application Features.
@@ -21,9 +21,26 @@ Capabilities includes:
     - Deletes All the contact when enter correctly & Shows a success sweatAlert on the right conrner.
    
 
-#Screenshots
-### Add contact #
+# Screenshots
+### Add Contact #
 ![Alt text](Images/AddContact.png)
+
+### Edit Contact #
+![Alt text](Images/Edit1.png)
+
+![Alt text](Images/Edit2.png)
+
+### Delete Contact #
+![Alt text](Images/Delete1.png)
+
+![Alt text](Images/Delete2.png)
+
+### Delete All Contact #
+![Alt text](Images/DeleteAll1.png)
+
+![Alt text](Images/DeleteAll2.png)
+
+![Alt text](Images/DeleteAll3.png)
 
 
 # MANUAL INSTALLATION
