@@ -8,7 +8,7 @@ This is a simple Phone Book Web application that allows the users to add contact
 # Application Features.
 Capabilities includes:
   <br><br>
-  #### Button Clicks #
+  **Button Clicks**
   - When clicking on Add Button:
     - Adds a contact to the PhoneBook.
   - When clicking on Edit Button:
@@ -24,20 +24,20 @@ Capabilities includes:
    
 
 # Screenshots
-## Add Contact #
+**Add Contact**
 ![Alt text](Images/AddContact.png)
 
-## Edit Contact #
+**Edit Contact**
 ![Alt text](Images/Edit1.png)
 
 ![Alt text](Images/Edit2.png)
 
-## Delete Contact #
+**Delete Contact**
 ![Alt text](Images/Delete1.png)
 
 ![Alt text](Images/Delete2.png)
 
-## Delete All Contact #
+**Delete All Contact*
 ![Alt text](Images/DeleteAll1.png)
 
 ![Alt text](Images/DeleteAll2.png)
