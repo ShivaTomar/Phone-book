@@ -1,4 +1,6 @@
-# PhoneBook Service App
+# PhoneBook-Service-Application
+
+This is a simple Phone Book Web application that allows the users to add contact, view contact, edit contact and delete contact. This project is developed by following the MVC pattern. Application utilities Express & NodeJs as backend where frontend utilities Handlebars & Css and MongoDb is used as the database.
 
 ### Welcome to PhoneBook Services #
 ![Alt text](Images/Main.png)
