@@ -25,6 +25,7 @@ Capabilities includes:
 
 # Screenshots
 **Add Contact**
+*Add*
 ![Alt text](Images/AddContact.png)
 
 **Edit Contact**
